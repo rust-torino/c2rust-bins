@@ -20,7 +20,7 @@ else
   C_INCLUDE_PATH="$C_INCLUDE_PATH:$INC_DIRS"
 fi
 
-if [ "x$LD_LIBRARY_PATH" = "x"]; then
+if [ "x$LD_LIBRARY_PATH" = "x" ]; then
   LD_LIBRARY_PATH="$BIN_DIR"
 else
   LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$BIN_DIR"
